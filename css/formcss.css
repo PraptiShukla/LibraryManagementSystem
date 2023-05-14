@@ -1,0 +1,125 @@
+body{
+  // background-color: #C45AEC;
+  background-image: url("img/bg-2.jpg");
+}
+
+h1{
+	color:white;
+    font-size:46px;
+}
+
+h2{
+	color:white;
+	font-size:30px;
+}
+
+.slide-right {
+   width: 100%;
+   overflow: hidden;
+   margin-left: 400px;
+   max-width: 500px
+}
+
+.slide-right h2 {
+   animation: 5s slide-right;
+   animation-delay: 0s;
+}
+
+@keyframes slide-right {
+    from {
+       margin-left: -500px;
+    }
+
+    to {
+       margin-left: 0%;
+    }
+ }
+ 
+ .slide-right {
+   width: 100%;
+   overflow: hidden;
+   margin-left: 400px;
+   max-width: 500px
+}
+
+.slide-right h1 {
+   animation: 5s slide-right;
+   animation-delay: 0s;
+}
+
+@keyframes slide-right {
+    from {
+       margin-left: -500px;
+    }
+
+    to {
+       margin-left: 0%;
+    }
+ }
+ 
+ button{
+  background:#FF00FF;
+  color:white;
+  border:none;
+  position:relative;
+  height:35px;
+  font-size:0.8em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:#fff;
+  color:#C21E56;        //#F2A2E8
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #FF00FF;        
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+.footer{
+	background-color:white;
+}
+
+input{
+	borber: 1px solid #848484;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	outline: 0;
+	width: 200px;
+	height: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+span {
+	color:red;
+}
+
+.container {
+  width: 78rem;
+  height: 50rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  background-color: rgba(200, 255, 255, .15);
+  backdrop-filter: blur(5px);
+}
+

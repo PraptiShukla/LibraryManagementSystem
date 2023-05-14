@@ -1,0 +1,42 @@
+body{
+	background-image: url("img/Library4.jpg");
+	background-size: cover;
+}
+
+body{
+	height: 100vh;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+  width: 35rem;
+  height: 30rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  background-color: rgba(200, 255, 255, .15);
+  backdrop-filter: blur(5px);
+}
+
+label{
+	font-family:Gabriola;
+	font-size:20px;
+}
+
+input{
+	border: 1px solid #848484;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	outline: 0;
+	width: 100px;
+	height: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+input.sbm{
+	 background-color: #9549c4;
+	 width: 100px;
+	height: 25px;
+}
